@@ -8,6 +8,6 @@ if(! functon_exists('view')) {
 
 if(! functon_exists('viewPath')) {
     function viewPath($view) {
-        return __DIR__ . "/../views/$view.php"
+        return __DIR__ . "/../views/$view.php";
     }
 }
