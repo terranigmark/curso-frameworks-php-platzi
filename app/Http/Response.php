@@ -22,6 +22,6 @@ class Response
 
         $content = file_get_contents(__DIR__ . "/../../views/$view.php");
 
-        require __DIR__ . "/../../views/$view.php";
+        require __DIR__ . "/../../views/layout.php";
     }
 }
