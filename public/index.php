@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/../vendor/autolad.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 $request = new App\Http\Request;
 $request->send();
